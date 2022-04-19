@@ -52,13 +52,11 @@ export default function Cards() {
             .then(response => response.json())
             .then(data => {
                 setList(data.map((element, index) => {
-                    return <Card key={index} lastName={element.lastName} country={element.country} team={element.team} position={element.position} rating={element.rating} />
+                    console.log(element);
+                    return <Card key={index} lastName={element.last_name} country={element.country} team={element.team} position={element.position} rating={element.rating} />
                 }))
             })
     }, [])
-
-
-
 
 
     return (
@@ -66,8 +64,7 @@ export default function Cards() {
             <main>
                 <h1>Cards List</h1>
 
-                <div id="main">
-
+                <div id="container">
                     <aside>
                         <form>
                             <label>ID:</label>
