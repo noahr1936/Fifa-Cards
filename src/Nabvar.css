@@ -1,19 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.toolbar{
+.toolbar {
     width: 100%;
     background-color: gray;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    justify-content: center;
 }
 
-span{
+.toolbar a {
     padding-left: 20px;
+    color: black;
 }
 
-a{
-    padding-left: 20px;
+.toolbar a:hover {
+    font-size: 1.1em;
 }

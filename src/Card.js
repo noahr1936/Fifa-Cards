@@ -2,6 +2,9 @@ import "./Card.css"
 
 export default function Card(props) {
 
+    /**
+     * Method that returns the id of the clicked card to the parent
+     */
     const handleClick = () => {
         props.onClick(props.id)
     }
