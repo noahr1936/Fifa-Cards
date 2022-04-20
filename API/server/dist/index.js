@@ -55,7 +55,7 @@ app.post("/", (req, res) => {
     }
     else {
         //new card object is created with detials
-        var card = new Card_1.default(0, details.lastName, details.country, details.team, details.position, details.rating);
+        var card = new Card_1.default(0, details.last_name, details.country, details.team, details.position, details.rating);
         database.createCard(card, (result) => {
             if (result == null)
                 res.status(400).json({ message: "Not Created", code: 0 });

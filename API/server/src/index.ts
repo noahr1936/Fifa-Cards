@@ -58,7 +58,7 @@ app.post("/", (req, res) => {
         //new card object is created with detials
         var card = new Card(
             0,
-            details.lastName,
+            details.last_name,
             details.country,
             details.team,
             details.position,

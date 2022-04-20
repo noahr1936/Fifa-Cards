@@ -7,7 +7,7 @@
 aside{
     text-align: center;
     width: 30%;
-    
+    border: 1px solid red;
 }
 
 aside form{
@@ -15,13 +15,14 @@ aside form{
     flex-direction: column;
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 15px auto 15px auto ;
 }
 
-section{
+#content{
     width: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border: 1px solid red;
 }

@@ -26,7 +26,7 @@
     width: 100%;
     height: 55%;
     border-bottom: 1px dashed black;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
   #cardTop img {
     position: absolute;
@@ -37,9 +37,9 @@
     max-height: 15vh;
     background-color: transparent;
   }
-  #cardTop p{
+  /* #cardTop p{
       padding-top: 15px;
-  }
+  } */
   #detailsContainer div {
     position: absolute;
     left: 0;

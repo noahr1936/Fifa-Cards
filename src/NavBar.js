@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import "./Nabvar.css"
 
 export default function Navbar() {
     return (
 
-        <div class="toolbar" role="banner">
+        <div className="toolbar" role="banner">
             <img width="40" alt="Angular Logo"
                 src="/logo192.png" />
             <span>Welcome</span>

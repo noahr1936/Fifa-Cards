@@ -1,8 +1,13 @@
 import "./Card.css"
 
 export default function Card(props) {
+
+    const handleClick = () => {
+        props.onClick(props.id)
+    }
+
     return (
-        <div id="card">
+        <div id="card" onClick={handleClick}>
             <div id="cardContainer">
                 <section id="cardTop">
                     <div id="detailsContainer">
